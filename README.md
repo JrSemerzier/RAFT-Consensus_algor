@@ -3,11 +3,10 @@ A Python implementation of Raft
 ## How to use
 1. start a new server
 ```
-python test id_of_servers(1-5) 
+python test.py  id_of_servers(1-5) 
 ```
-2. start a client 
+2. start a client
 ```
-python client
+python client.py 
 ```
-## Reference
-[In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf)
+
